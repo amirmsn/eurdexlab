@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EurDex Lab</title>
+        <link href="./normalize.css" rel="stylesheet">
+
+        <style>
+            body {
+                background-color: #7895CB;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+            }
+
+            /* Navigation-bar */
+            #navigation-bar {
+                position: fixed;
+                width: 100%;
+                z-index: 1;
+                border: 1px black solid;
+                background-image: radial-gradient(circle at center, white, white, white, white, white, white, #A0BFE0, #7895CB, #4A55A2);
+            }
+
+            #navigation-bar ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding: 0;
+            }
+
+            #navigation-bar ul li a {
+                text-decoration: none;
+                padding: 0 30px;
+                font-size: 20px;
+                font-weight: bold;
+                color: black;
+            }
+
+            #navigation-bar ul li a:hover {
+                color: red;
+            }
+
+            #eurdexlab-logo {
+                width: 10rem;
+            }
+
+            #hero-section {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                top: 70px;
+                border: 1px black solid;
+                width: 80%;
+                margin: 0 auto;
+                
+                background-color: white;
+                /* flex-flow: wrap; */
+            }
+
+            #hero-section div h1 {
+                font-size: 50px;
+                padding-bottom: 70px;
+                max-width: 100%;
+                
+                /* width: 100%; */
+                /* margin: 0 auto; */
+            }
+
+            #hero-section div p {
+                line-height: 30px;
+            }
+            
+
+
+
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <!-- Navigation-bar -->
+        <nav id="navigation-bar">
+            <ul>
+                <li><a href=""><img src="./resources/logo_eurdex_lab_03.png" id="eurdexlab-logo"></a></li>
+                <li><a href="">ACADEMIA</a></li>
+                <li><a href="">WORKSHOP</a></li>
+                <li><a href="">ABOUT</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero section -->
+        <section id="hero-section">
+            <div>
+                <h1>
+                    Empowering Curiosity<br>Crafting ingenuity
+                </h1>
+                <p>
+                    Welcome to EurDex Lab, the ultimate destination for all things DIY
+                    and innovative! Our name, EurDex, is a fusion of "Eureka" and "Dexterity",
+                    reflecting our commitment to exploration, skillfulness, and hands-on creativity.<br>
+                    Join us as we share our passion for DIY, unveiling the 
+                    secrets and theories behind various academic subjects while 
+                    showcasing our dexterity in repairing, modifying, and crafting. 
+                    We're here to empower you with the skills, insights, and inspiration 
+                    to tackle your own projects and unleash your inner inventor.
+                </p>
+            </div>
+            <div>
+                <img src="./resources/logo_eurdex_lab_04.png">
+            </div>
+        </section>
+        
+    </body>
+</html>
